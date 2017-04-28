@@ -1,9 +1,10 @@
 # lcov2shield
-Produce a link to a shields.io badge from a lcov.info file
+Produce a link to a shields.io badge from a lcov.info file.
+
 *Based on the [lcov2badge](https://github.com/albanm/lcov2badge) repo.*
 
 ## Install
-```javascript
+```sh
 yarn install lcov2shield
 ```
 
