@@ -1,0 +1,22 @@
+{
+  "name": "lcov2shield",
+  "version": "1.0.0",
+  "description": "Produce a link to a shields.io badge from a lcov.info file",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeclements/lcov2shield.git"
+  },
+  "author": "Jake Clements <jake@jakeclements.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakeclements/lcov2shield/issues"
+  },
+  "homepage": "https://github.com/jakeclements/lcov2shield"
+}
