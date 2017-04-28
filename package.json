@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jakeclements/lcov2shield/issues"
   },
-  "homepage": "https://github.com/jakeclements/lcov2shield"
+  "homepage": "https://github.com/jakeclements/lcov2shield",
+  "dependencies": {
+    "byline": "^5.0.0"
+  }
 }
