@@ -3,7 +3,9 @@ const byline = require('byline');
 
 const linesRatio = function(filePath, cb = () => {}) {
 
-  const stream = byline(fs.createReadStream(filePath, { encoding: 'utf8' }));
+  const readStream = fs.createReadStream(filePath);
+  const stream = byline(readStream, { encoding: 'utf8' });
+
   let instrumentedLines = 0;
   let coveredLines = 0;
 
@@ -26,9 +28,15 @@ const linesRatio = function(filePath, cb = () => {}) {
   });
 }
 
+const getPercent = function() {
+
+}
+
 exports.badgify = function(coveragePath, readmePath) {
   linesRatio(coveragePath, (err, ratio) => {
 		if(err) return console.log(err);
     const percent = Math.round(ratio * 100);
+    console.log(percent);
   });
+  return this;
 }
