@@ -1,5 +1,5 @@
 # lcov2shield
-![Build Badge](https://img.shields.io/badge/coverage-59%-yellow.svg)
+![Build Badge](https://img.shields.io/badge/coverage-59%-yellow.png)
 Produce a link to a shields.io badge from a lcov.info file.
 *Based on the [lcov2badge](https://github.com/albanm/lcov2badge) repo.*
 
