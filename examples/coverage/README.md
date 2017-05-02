@@ -1,5 +1,5 @@
 # pretendReadme
-Should receive a badge
+![Build Badge](https://img.shields.io/badge/coverage-59%-yellow.svg)
 
 ## Install
 ```sh
